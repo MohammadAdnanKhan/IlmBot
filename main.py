@@ -74,6 +74,7 @@ def rate_limit_handler(request: Request, exc: RateLimitExceeded):
 # Ensure the app runs on Render's provided port
 if __name__ == "__main__":
     from dotenv import load_dotenv
+    import uvicorn
     import os
     load_dotenv()
 
