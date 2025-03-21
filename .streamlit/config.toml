@@ -3,3 +3,7 @@ primaryColor="#f8c400"
 backgroundColor="#e0f8e0"
 secondaryBackgroundColor="#56a06c"
 textColor="#000000"
+
+[server]
+enableCORS = false
+enableXsrfProtection = false
