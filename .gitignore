@@ -3,4 +3,4 @@ test.py
 .venv/
 rest.rest
 faiss_index/
-__pycache__/
+model/__pycache__
